@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B5942751DF73CA76AE2E091 /* Pods_Affirm_AffirmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48E6330C8657F9EACDA4DC0 /* Pods_Affirm_AffirmUITests.framework */; };
+		5D3A48072350F6CE0033F6C6 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A48062350F6CE0033F6C6 /* View.swift */; };
+		5D4B3E2D2354D72200982E3C /* ExtensionsBackend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4B3E2C2354D72200982E3C /* ExtensionsBackend.swift */; };
+		5D4B3E2F2354DBA700982E3C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4B3E2E2354DBA700982E3C /* Model.swift */; };
+		5D605A0F23510B2D005AE61B /* ExtensionsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D605A0E23510B2D005AE61B /* ExtensionsUI.swift */; };
+		5DE6BFA32345506B00ACAB77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6BFA22345506B00ACAB77 /* AppDelegate.swift */; };
+		5DE6BFA52345506B00ACAB77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6BFA42345506B00ACAB77 /* ViewController.swift */; };
+		5DE6BFA82345506B00ACAB77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DE6BFA62345506B00ACAB77 /* Main.storyboard */; };
+		5DE6BFAB2345506B00ACAB77 /* Affirm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6BFA92345506B00ACAB77 /* Affirm.xcdatamodeld */; };
+		5DE6BFAD2345506C00ACAB77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE6BFAC2345506C00ACAB77 /* Assets.xcassets */; };
+		5DE6BFB02345506C00ACAB77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DE6BFAE2345506C00ACAB77 /* LaunchScreen.storyboard */; };
+		5DE6BFBB2345506C00ACAB77 /* AffirmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6BFBA2345506C00ACAB77 /* AffirmTests.swift */; };
+		5DE6BFC62345506C00ACAB77 /* AffirmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6BFC52345506C00ACAB77 /* AffirmUITests.swift */; };
+		A8ADA3B1BFD7033B40BC5EA4 /* Pods_AffirmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EDC70535DACC0988C83E9C /* Pods_AffirmTests.framework */; };
+		DC695F5E5C364E08D8C3D2C2 /* Pods_Affirm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7396D372FB5F2FE0032E1843 /* Pods_Affirm.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DE6BFB72345506C00ACAB77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DE6BF972345506B00ACAB77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DE6BF9E2345506B00ACAB77;
+			remoteInfo = Affirm;
+		};
+		5DE6BFC22345506C00ACAB77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DE6BF972345506B00ACAB77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DE6BF9E2345506B00ACAB77;
+			remoteInfo = Affirm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FA62E6E875796EFD9F36A04 /* Pods-AffirmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AffirmTests.debug.xcconfig"; path = "Target Support Files/Pods-AffirmTests/Pods-AffirmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D3A48062350F6CE0033F6C6 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		5D4B3E2C2354D72200982E3C /* ExtensionsBackend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsBackend.swift; sourceTree = "<group>"; };
+		5D4B3E2E2354DBA700982E3C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5D605A0E23510B2D005AE61B /* ExtensionsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsUI.swift; sourceTree = "<group>"; };
+		5DE6BF9F2345506B00ACAB77 /* Affirm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Affirm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE6BFA22345506B00ACAB77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DE6BFA42345506B00ACAB77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DE6BFA72345506B00ACAB77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DE6BFAA2345506B00ACAB77 /* Affirm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Affirm.xcdatamodel; sourceTree = "<group>"; };
+		5DE6BFAC2345506C00ACAB77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DE6BFAF2345506C00ACAB77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DE6BFB12345506C00ACAB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE6BFB62345506C00ACAB77 /* AffirmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffirmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE6BFBA2345506C00ACAB77 /* AffirmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmTests.swift; sourceTree = "<group>"; };
+		5DE6BFBC2345506C00ACAB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE6BFC12345506C00ACAB77 /* AffirmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffirmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE6BFC52345506C00ACAB77 /* AffirmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmUITests.swift; sourceTree = "<group>"; };
+		5DE6BFC72345506C00ACAB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7396D372FB5F2FE0032E1843 /* Pods_Affirm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Affirm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C1BFB95DFFDAE35CB2DB9C6 /* Pods-Affirm-AffirmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirm-AffirmUITests.debug.xcconfig"; path = "Target Support Files/Pods-Affirm-AffirmUITests/Pods-Affirm-AffirmUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A26C37CD764EB55D84FCFE41 /* Pods-AffirmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AffirmTests.release.xcconfig"; path = "Target Support Files/Pods-AffirmTests/Pods-AffirmTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6CB4058438393D7AD302038 /* Pods-Affirm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirm.release.xcconfig"; path = "Target Support Files/Pods-Affirm/Pods-Affirm.release.xcconfig"; sourceTree = "<group>"; };
+		A9FD010F390104D3D8ACB76F /* Pods-Affirm-AffirmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirm-AffirmUITests.release.xcconfig"; path = "Target Support Files/Pods-Affirm-AffirmUITests/Pods-Affirm-AffirmUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D4EDC70535DACC0988C83E9C /* Pods_AffirmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AffirmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E357A07ED1E3D2F0590FCBD5 /* Pods-Affirm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirm.debug.xcconfig"; path = "Target Support Files/Pods-Affirm/Pods-Affirm.debug.xcconfig"; sourceTree = "<group>"; };
+		F48E6330C8657F9EACDA4DC0 /* Pods_Affirm_AffirmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Affirm_AffirmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DE6BF9C2345506B00ACAB77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC695F5E5C364E08D8C3D2C2 /* Pods_Affirm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE6BFB32345506C00ACAB77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8ADA3B1BFD7033B40BC5EA4 /* Pods_AffirmTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE6BFBE2345506C00ACAB77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5942751DF73CA76AE2E091 /* Pods_Affirm_AffirmUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DE6BF962345506B00ACAB77 = {
+			isa = PBXGroup;
+			children = (
+				5DE6BFA12345506B00ACAB77 /* Affirm */,
+				5DE6BFB92345506C00ACAB77 /* AffirmTests */,
+				5DE6BFC42345506C00ACAB77 /* AffirmUITests */,
+				5DE6BFA02345506B00ACAB77 /* Products */,
+				B05E8B1DA619626F03B820D4 /* Pods */,
+				8E6BBF364DCBE073D73F84B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5DE6BFA02345506B00ACAB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DE6BF9F2345506B00ACAB77 /* Affirm.app */,
+				5DE6BFB62345506C00ACAB77 /* AffirmTests.xctest */,
+				5DE6BFC12345506C00ACAB77 /* AffirmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DE6BFA12345506B00ACAB77 /* Affirm */ = {
+			isa = PBXGroup;
+			children = (
+				5DE6BFA22345506B00ACAB77 /* AppDelegate.swift */,
+				5DE6BFA42345506B00ACAB77 /* ViewController.swift */,
+				5D3A48062350F6CE0033F6C6 /* View.swift */,
+				5D4B3E2E2354DBA700982E3C /* Model.swift */,
+				5D605A0E23510B2D005AE61B /* ExtensionsUI.swift */,
+				5D4B3E2C2354D72200982E3C /* ExtensionsBackend.swift */,
+				5DE6BFA62345506B00ACAB77 /* Main.storyboard */,
+				5DE6BFAC2345506C00ACAB77 /* Assets.xcassets */,
+				5DE6BFAE2345506C00ACAB77 /* LaunchScreen.storyboard */,
+				5DE6BFB12345506C00ACAB77 /* Info.plist */,
+				5DE6BFA92345506B00ACAB77 /* Affirm.xcdatamodeld */,
+			);
+			path = Affirm;
+			sourceTree = "<group>";
+		};
+		5DE6BFB92345506C00ACAB77 /* AffirmTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE6BFBA2345506C00ACAB77 /* AffirmTests.swift */,
+				5DE6BFBC2345506C00ACAB77 /* Info.plist */,
+			);
+			path = AffirmTests;
+			sourceTree = "<group>";
+		};
+		5DE6BFC42345506C00ACAB77 /* AffirmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE6BFC52345506C00ACAB77 /* AffirmUITests.swift */,
+				5DE6BFC72345506C00ACAB77 /* Info.plist */,
+			);
+			path = AffirmUITests;
+			sourceTree = "<group>";
+		};
+		8E6BBF364DCBE073D73F84B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7396D372FB5F2FE0032E1843 /* Pods_Affirm.framework */,
+				F48E6330C8657F9EACDA4DC0 /* Pods_Affirm_AffirmUITests.framework */,
+				D4EDC70535DACC0988C83E9C /* Pods_AffirmTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B05E8B1DA619626F03B820D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E357A07ED1E3D2F0590FCBD5 /* Pods-Affirm.debug.xcconfig */,
+				A6CB4058438393D7AD302038 /* Pods-Affirm.release.xcconfig */,
+				7C1BFB95DFFDAE35CB2DB9C6 /* Pods-Affirm-AffirmUITests.debug.xcconfig */,
+				A9FD010F390104D3D8ACB76F /* Pods-Affirm-AffirmUITests.release.xcconfig */,
+				1FA62E6E875796EFD9F36A04 /* Pods-AffirmTests.debug.xcconfig */,
+				A26C37CD764EB55D84FCFE41 /* Pods-AffirmTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DE6BF9E2345506B00ACAB77 /* Affirm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE6BFCA2345506C00ACAB77 /* Build configuration list for PBXNativeTarget "Affirm" */;
+			buildPhases = (
+				8985549734DF7201C7C5A81C /* [CP] Check Pods Manifest.lock */,
+				5DE6BF9B2345506B00ACAB77 /* Sources */,
+				5DE6BF9C2345506B00ACAB77 /* Frameworks */,
+				5DE6BF9D2345506B00ACAB77 /* Resources */,
+				312912C57D8A87FFDC66D5A1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Affirm;
+			productName = Affirm;
+			productReference = 5DE6BF9F2345506B00ACAB77 /* Affirm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DE6BFB52345506C00ACAB77 /* AffirmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE6BFCD2345506C00ACAB77 /* Build configuration list for PBXNativeTarget "AffirmTests" */;
+			buildPhases = (
+				0E4D980782187E3FD00828C9 /* [CP] Check Pods Manifest.lock */,
+				5DE6BFB22345506C00ACAB77 /* Sources */,
+				5DE6BFB32345506C00ACAB77 /* Frameworks */,
+				5DE6BFB42345506C00ACAB77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE6BFB82345506C00ACAB77 /* PBXTargetDependency */,
+			);
+			name = AffirmTests;
+			productName = AffirmTests;
+			productReference = 5DE6BFB62345506C00ACAB77 /* AffirmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DE6BFC02345506C00ACAB77 /* AffirmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE6BFD02345506C00ACAB77 /* Build configuration list for PBXNativeTarget "AffirmUITests" */;
+			buildPhases = (
+				7C46506F6042F823F6395F24 /* [CP] Check Pods Manifest.lock */,
+				5DE6BFBD2345506C00ACAB77 /* Sources */,
+				5DE6BFBE2345506C00ACAB77 /* Frameworks */,
+				5DE6BFBF2345506C00ACAB77 /* Resources */,
+				542FCB493BB9E508481B87FF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE6BFC32345506C00ACAB77 /* PBXTargetDependency */,
+			);
+			name = AffirmUITests;
+			productName = AffirmUITests;
+			productReference = 5DE6BFC12345506C00ACAB77 /* AffirmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DE6BF972345506B00ACAB77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Benjamin Ulrich";
+				TargetAttributes = {
+					5DE6BF9E2345506B00ACAB77 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5DE6BFB52345506C00ACAB77 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5DE6BF9E2345506B00ACAB77;
+					};
+					5DE6BFC02345506C00ACAB77 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5DE6BF9E2345506B00ACAB77;
+					};
+				};
+			};
+			buildConfigurationList = 5DE6BF9A2345506B00ACAB77 /* Build configuration list for PBXProject "Affirm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DE6BF962345506B00ACAB77;
+			productRefGroup = 5DE6BFA02345506B00ACAB77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DE6BF9E2345506B00ACAB77 /* Affirm */,
+				5DE6BFB52345506C00ACAB77 /* AffirmTests */,
+				5DE6BFC02345506C00ACAB77 /* AffirmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DE6BF9D2345506B00ACAB77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE6BFB02345506C00ACAB77 /* LaunchScreen.storyboard in Resources */,
+				5DE6BFAD2345506C00ACAB77 /* Assets.xcassets in Resources */,
+				5DE6BFA82345506B00ACAB77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE6BFB42345506C00ACAB77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE6BFBF2345506C00ACAB77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E4D980782187E3FD00828C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AffirmTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		312912C57D8A87FFDC66D5A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Affirm/Pods-Affirm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Affirm/Pods-Affirm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Affirm/Pods-Affirm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		542FCB493BB9E508481B87FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Affirm-AffirmUITests/Pods-Affirm-AffirmUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Affirm-AffirmUITests/Pods-Affirm-AffirmUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Affirm-AffirmUITests/Pods-Affirm-AffirmUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C46506F6042F823F6395F24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Affirm-AffirmUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8985549734DF7201C7C5A81C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Affirm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DE6BF9B2345506B00ACAB77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4B3E2F2354DBA700982E3C /* Model.swift in Sources */,
+				5D4B3E2D2354D72200982E3C /* ExtensionsBackend.swift in Sources */,
+				5D605A0F23510B2D005AE61B /* ExtensionsUI.swift in Sources */,
+				5D3A48072350F6CE0033F6C6 /* View.swift in Sources */,
+				5DE6BFA52345506B00ACAB77 /* ViewController.swift in Sources */,
+				5DE6BFA32345506B00ACAB77 /* AppDelegate.swift in Sources */,
+				5DE6BFAB2345506B00ACAB77 /* Affirm.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE6BFB22345506C00ACAB77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE6BFBB2345506C00ACAB77 /* AffirmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE6BFBD2345506C00ACAB77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE6BFC62345506C00ACAB77 /* AffirmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DE6BFB82345506C00ACAB77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DE6BF9E2345506B00ACAB77 /* Affirm */;
+			targetProxy = 5DE6BFB72345506C00ACAB77 /* PBXContainerItemProxy */;
+		};
+		5DE6BFC32345506C00ACAB77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DE6BF9E2345506B00ACAB77 /* Affirm */;
+			targetProxy = 5DE6BFC22345506C00ACAB77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DE6BFA62345506B00ACAB77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DE6BFA72345506B00ACAB77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DE6BFAE2345506C00ACAB77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DE6BFAF2345506C00ACAB77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DE6BFC82345506C00ACAB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DE6BFC92345506C00ACAB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DE6BFCB2345506C00ACAB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E357A07ED1E3D2F0590FCBD5 /* Pods-Affirm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FR3Q6K39GS;
+				INFOPLIST_FILE = Affirm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Doe-Developments.Affirm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DE6BFCC2345506C00ACAB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6CB4058438393D7AD302038 /* Pods-Affirm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FR3Q6K39GS;
+				INFOPLIST_FILE = Affirm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Doe-Developments.Affirm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DE6BFCE2345506C00ACAB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FA62E6E875796EFD9F36A04 /* Pods-AffirmTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FR3Q6K39GS;
+				INFOPLIST_FILE = AffirmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Doe-Developments.AffirmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Affirm.app/Affirm";
+			};
+			name = Debug;
+		};
+		5DE6BFCF2345506C00ACAB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A26C37CD764EB55D84FCFE41 /* Pods-AffirmTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FR3Q6K39GS;
+				INFOPLIST_FILE = AffirmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Doe-Developments.AffirmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Affirm.app/Affirm";
+			};
+			name = Release;
+		};
+		5DE6BFD12345506C00ACAB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C1BFB95DFFDAE35CB2DB9C6 /* Pods-Affirm-AffirmUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FR3Q6K39GS;
+				INFOPLIST_FILE = AffirmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Doe-Developments.AffirmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Affirm;
+			};
+			name = Debug;
+		};
+		5DE6BFD22345506C00ACAB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9FD010F390104D3D8ACB76F /* Pods-Affirm-AffirmUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FR3Q6K39GS;
+				INFOPLIST_FILE = AffirmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Doe-Developments.AffirmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Affirm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DE6BF9A2345506B00ACAB77 /* Build configuration list for PBXProject "Affirm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE6BFC82345506C00ACAB77 /* Debug */,
+				5DE6BFC92345506C00ACAB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE6BFCA2345506C00ACAB77 /* Build configuration list for PBXNativeTarget "Affirm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE6BFCB2345506C00ACAB77 /* Debug */,
+				5DE6BFCC2345506C00ACAB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE6BFCD2345506C00ACAB77 /* Build configuration list for PBXNativeTarget "AffirmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE6BFCE2345506C00ACAB77 /* Debug */,
+				5DE6BFCF2345506C00ACAB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE6BFD02345506C00ACAB77 /* Build configuration list for PBXNativeTarget "AffirmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE6BFD12345506C00ACAB77 /* Debug */,
+				5DE6BFD22345506C00ACAB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5DE6BFA92345506B00ACAB77 /* Affirm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5DE6BFAA2345506B00ACAB77 /* Affirm.xcdatamodel */,
+			);
+			currentVersion = 5DE6BFAA2345506B00ACAB77 /* Affirm.xcdatamodel */;
+			path = Affirm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5DE6BF972345506B00ACAB77 /* Project object */;
+}
